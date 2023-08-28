@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+
+@media screen and (min-width: 768px) {
+  .Home-container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-home {
+    font-family: Roboto;
+    color: #551e53;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 150px;
+  }
+}

@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-contact {
+    font-family: Roboto;
+    color: #551e53;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 150px;
+  }
+}

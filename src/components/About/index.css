@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+@media screen and (min-width: 768px) {
+  .About-container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading-about {
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .image {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 100px;
+  }
+}
